@@ -1,4 +1,5 @@
-#python3 AssignmentBCPYComplete.py --vcfFile assessmentData.vcf.gz --gffFile PlasmoDB-54_Pfalciparum3D7.gff --fastaFile PlasmoDB-54_Pfalciparum3D7_Genome.fasta
+#python3 Script/Variant Sorter.py --vcfFile Data/assessmentData.vcf.gz --gffFile Data/PlasmoDB-54_Pfalciparum3D7.gff --fastaFile Data/PlasmoDB-54_Pfalciparum3D7_Genome.fasta
+
 import os
 import math
 import sys
