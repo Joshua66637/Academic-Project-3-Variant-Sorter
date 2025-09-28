@@ -1,4 +1,4 @@
-#BCPY Mutation Categorizing Assignment for GUID: 3047039
+#BCPY Mutation Categorizing Assignment
 #Basic Modules
 import os
 import math
@@ -46,7 +46,7 @@ files = parser.parse_args()
 #Setting up log file
 logger = logging.getLogger("Variant Sorting Logger")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler("3047039_Variant_Sorting_logfile.log") #Logfile name
+fh = logging.FileHandler("Variant_Sorting_logfile.log") #Logfile name
 fh.setFormatter(logging.Formatter('%(levelname)s - %(asctime)s - %(message)s'))
 logger.addHandler(fh)
 
